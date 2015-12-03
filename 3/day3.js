@@ -4,7 +4,7 @@ function day3() {
 
 		for (var i=0; i < s; i++) {
 			locations[i] = { x: 0, y: 0 };
-			h['0:0']++;
+			h['0,0']++;
 		}
 		for (var i=0; i<input.length; i++) {
 			switch (input[i]) {
